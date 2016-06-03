@@ -1,5 +1,6 @@
 html, body{
    overflow-x: hidden;
+   background: pink;
  }
  body {
    font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -19,7 +20,7 @@ html, body{
    font-weight: 100;
  }
 
- 
+
  /* GRID */
  .container {
    margin-right: auto;
