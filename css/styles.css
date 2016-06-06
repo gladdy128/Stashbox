@@ -70,6 +70,12 @@ html, body{
    }
  }
 
+ @media (min-width: 1440px) {
+   .container {
+      width: 1400px;
+   }
+ }
+
   /* HEADER */
  header {
    color:#FFFFFF;
@@ -112,12 +118,12 @@ html, body{
    position: relative;
  }
  header .hero h1 {
-   font-size:48px;
+   font-size:60px;
    font-weight: normal;
    margin:95px 0 0;
  }
  header .hero p {
-   font-size: 22px;
+   font-size: 30px;
    line-height: 26px;
    font-weight: 100;
    margin:10px 0 40px;
