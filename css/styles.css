@@ -44,9 +44,21 @@ html, body{
    margin:0 2% 20px;
  }
 
+@media (max-width: 767px) {
+   .hero img {
+      max-width: 100%;
+      height: auto;
+   }
+   footer .logo {
+      padding: 0;
+   }
+}
+
+ 
  @media (min-width: 768px) {
    .container {
      width: 750px; }
+
  }
 
  @media (min-width: 992px) {
@@ -255,7 +267,7 @@ html, body{
    color: #FEFEFE;
    line-height: 15px;
    font-style:italic;
-   padding: 100px 0 0;
+   padding: 100px auto 0;
    text-align: center;
  }
 
@@ -322,7 +334,6 @@ html, body{
    background-image: linear-gradient(to top,
       #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
-   height: 150px;
    position: relative;
    overflow: hidden;
    z-index: 0;
@@ -350,13 +361,12 @@ html, body{
    display: block;
  }
 
- 
+
  @media (min-width: 992px){
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
         #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
-     height: 100px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
@@ -365,7 +375,5 @@ html, body{
    footer .right-footer-block {
      background-color: #3498DB;
    }
-   footer .logo{
-     padding: 2em 0 2em 1.5em;
-   }
+   
  }
