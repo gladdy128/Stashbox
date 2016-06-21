@@ -638,6 +638,8 @@ html, body{
    margin:5px 0 0;
  }
 
- a:active {
-   background-color: yellow;
+ a.active {
+   background-color: blue;
+   padding: 5px;
+
  }
